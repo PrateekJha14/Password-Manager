@@ -1,50 +1,52 @@
-# Welcome to your Expo app 👋
+# Password Management Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Project Overview
+This Password Management Application is designed to securely store, organize, and generate strong passwords for users across multiple devices. The application ensures top-level security with encryption, multi-factor authentication, and secure synchronization of data. Users can categorize passwords, perform strength audits, and receive alerts if credentials are found in data breaches. With both offline access and cross-platform functionality, the app allows users to securely retrieve their passwords anytime.
 
-## Get started
+## Key Features
+- **Secure Storage**: Uses encryption algorithms to securely store passwords locally or in the cloud.
+- **Cross-Platform Functionality**: Ensures consistent performance on both iOS and Android devices.
+- **Password Generation**: Provides a customizable, strong password generator with options for length and character types.
+- **Password Categorization**: Allows users to organize passwords into folders (e.g., banking, social, work).
+- **Multi-Factor Authentication (MFA)**: Offers options like fingerprint or facial recognition for enhanced security.
+- **Password Recovery**: Enables secure recovery using email verification, recovery codes, or backup keys.
+- **Password Strength Audits**: Notifies users of weak, reused, or compromised passwords with update suggestions.
+- **Data Breach Alerts**: Integrates data breach monitoring to alert users if their credentials are found in compromised databases.
+- **Offline Access**: Allows users to access passwords offline in an encrypted format.
+- **Real-Time Data Synchronization**: Synchronizes data across devices with end-to-end encryption for secure access.
 
-1. Install dependencies
+## Learning Resources
+- Resources are available through group discussion for assistance with implementation and troubleshooting.
 
+## Setup Instructions
+
+### Prerequisites
+- Ensure you have the latest versions of [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
+- Install any required mobile development tools for iOS and Android (e.g., Xcode for iOS, Android Studio for Android).
+
+### Installation
+1. Clone the repository:
    ```bash
-   npm install
-   ```
+   git clone https://github.com/PrateekJha14/password-management-app.git
+   cd password-management-app
 
-2. Start the app
+### Install dependencies
 
-   ```bash
-    npx expo start
-   ```
+npm install 
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### Run the application locally:
 
 ```bash
-npm run reset-project
+npx expo start 
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### For mobile testing 
 
-## Learn more
+- **Android** : Generate an APK file using Android Studio or download   expo mobile app and scan the QR code appeared after the command npx expo start.
+- **IOS** :  Use Xcode to build and test via TestFlight.
 
-To learn more about developing your project with Expo, look at the following resources:
+## Demo video
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Here is the demo video of the app.
+[Watch the demo video](./demo.mp4)
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
